@@ -1,5 +1,5 @@
 package IO::CSVHeaderFile;
-# $Id: CSVHeaderFile.pm,v 1.1.1.1 2002/08/23 13:36:21 vasek Exp $
+# $Id: CSVHeaderFile.pm,v 1.2 2002/09/11 08:51:53 vasek Exp $
 
 use strict;
 use Text::CSV_XS;
@@ -14,7 +14,7 @@ use Carp;
         
 );
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub open {
 	my $self = shift;
